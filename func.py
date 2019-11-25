@@ -114,6 +114,6 @@ k4=k4.replace('(((((((((((((((((((((((((((((((((','(((((((((((((((((((((((((((((
 
 #regla 1 donde se pone la prelacion del tiempo1
 print('((((('+l4+')'+'((('+n4+'))'+'((('+k4+'))')
-
+print('--------------------------------------------------------')
 #regla 2 donde no puede haber dos fichas en una misma casilla
-#regla2()
+regla2()
