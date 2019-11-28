@@ -3,6 +3,7 @@ def codify(fil,cas):
     #fil maximo hay 4
     return((fil-1)*10)+cas
 
+
 a=codify(1,2)
 b=codify(2,3)
 c=codify(3,4)
