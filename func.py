@@ -310,7 +310,9 @@ l='(105>((((((((((((((((((((((((((((((((((((((-120Y-117)Y-114)Y-111)Y-108)Y-102)
 mu= '(('+i+'Y'+j+')'+'Y'+'('+k+'Y'+l+'))'
 #print(mu)
 #regla1 traducida
-regla1=tra(mu)
+lo= '(('+ma+'Y'+mo+')'+'Y'+mu+')'
+#print(lo)
+regla1=tra(lo)
 print(regla1)
 
 
@@ -330,8 +332,6 @@ esta= '(('+gol+'Y'+gal+')Y'+gil+')'
 regla2= tra(esta)
 print(regla2)
 print('------------------------------------------------------------')
-#Regla 3 movimientos de las fichas
-
 def mov1 ():
 #Movimiento una ficha en la posicion 1 implica
     mov1 = str('('+'('+'('+'('+'('+'('+'('+'('+'('+'('+'1'+'>'+'-1'+'Y'+')'+'-2'+'Y'+')'+'3'+'Y'+')'+'-4'+'Y'+')'+'-5'+'Y'+')'+'-6'+'Y'+')'+'-7'+'Y'+')'+'-8'+'Y'+')'+'-9'+'Y'+')'+'-10'+')')
@@ -378,8 +378,8 @@ def mov10():
     return mov10
 
 M = str('('+'('+'('+mov2()+')'+'Y'+')'+'('+mov5()+')'+'Y'+')'+'('+mov4()+')')
-
+#print(M)
 #regla3 traducida
 regla3 = tra(M)
 
-print(regla3)
+#print(regla3)
